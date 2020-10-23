@@ -3,7 +3,10 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     font-family: Arial;
-    color: rgb(68, 81, 97);
+    color: #333333;;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
 }
 
 
@@ -11,7 +14,6 @@ body {
 background-color: #445161;
 font-size: 20px;
 line-height: 36px;
-font-weight: 400;
 color: #ffffff;
 width: 100%;
 padding: 50px;
@@ -19,19 +21,6 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
-
-/*.page-header-wrp {
-   box-sizing: border-box;
-    float: left;
-
-}
-
-.page-header:after {
-    content: "";
-    display: block;
-    width: 100%;
-    clear: both;
-}*/
 
 .page-header-title {
 font-size: 60px;
@@ -66,6 +55,41 @@ box-sizing: border-box;
 width: 469px;
 height: 214px;
 background-color: #ffffff;
-/*display: block;
-float: right;*/
+}
+
+.about {
+font-size: 16px;
+line-height: 24px;
+width: 100%;
+padding: 50px;
+display: flex;
+justify-content: space-between;
+}
+
+.about-title {
+font-size: 30px;
+line-height: 36px;
+color: #445161;
+margin: 0 0 30px 0;
+width: 100%;
+display: block;
+}
+.about-wrp {
+display: block;    
+}
+
+
+.about-wrp p {
+    margin: 0 0 20px 0;
+}
+
+.about-wrp p:last-child {
+margin: 0;
+}
+
+.about-video {
+width: 430px;
+height: 245px;
+background-color: #445161;
+margin: 0 0 0 100px;
 }
