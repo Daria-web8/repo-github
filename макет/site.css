@@ -183,3 +183,70 @@ margin: 0 0 15px 0;
     justify-content: space-between;
 } 
 
+.reviews {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.reviews-wrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews-title {
+font-size: 30px;
+line-height: 36px;
+color: #445161;
+margin: 0 0 35px 0;
+text-align: center;
+display: block;
+}
+
+.reviews-photo {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #445161;
+  border-radius: 50%;
+}
+
+.comment {
+  width: 300px;
+  margin: 0 0 0 40px;
+  padding: 16px;
+  background-color: #ccc;
+  border-radius: 10px;
+  position: relative;
+}
+
+.comment:before {
+  content: "";
+  display: block;
+  border: 13px solid transparent; 
+  border-right: 13px solid #ccc;
+  position: absolute;
+  top: 35px;
+  left: -26px;
+}
+
+.full-comment {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 32px 24px 0;
+}
+
+.comment footer {
+font-size: 14px;
+line-height: 18px;
+color: #989898;
+margin: 15px 0 0 0;
+}
+
+.comment p {
+font-size: 14px;
+line-height: 18px;
+font-style: italic;
+color: #333333;
+}
+
+
