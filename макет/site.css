@@ -144,3 +144,42 @@ position: absolute;
 top: 5px;
 left: 0;
 }
+
+.screenshots {
+    padding: 50px 50px 34px 50px; 
+}
+
+.screenshots-title {
+font-size: 30px;
+line-height: 36px;
+color: #445161;
+text-align: center;
+margin: 0 0 35px 0;
+}
+
+.screenshots-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px 34px 0;
+}
+
+.screenshots-photo {
+display: block;
+min-width: 200px;
+height: 150px;
+background-color: #445161;
+margin: 0 15px 0 0;
+}
+
+.screenshots-item-txt h3 {
+color: #445161; 
+font-size: 24px;
+line-height: 30px; 
+margin: 0 0 15px 0;
+}
+
+.screenshots-wrp {
+    display: flex;
+    justify-content: space-between;
+} 
+
