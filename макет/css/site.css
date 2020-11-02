@@ -4,7 +4,6 @@ body {
   box-sizing: border-box;
   font-family: Arial;
   color: #333333;
-  ;
   display: flex;
   flex-direction: column;
   font-weight: 400;
@@ -26,6 +25,9 @@ body {
   font-size: 60px;
   line-height: 1.2;
   margin: 0;
+  display: block;
+  word-break: break-all;
+  width: 100%;
 }
 
 .page-header-list {
@@ -53,9 +55,10 @@ body {
 }
 
 .page-header-img {
-  width: 469px;
+  min-width: 469px;
   height: 214px;
   background-color: #ffffff;
+  display: block;
 }
 
 .about {
@@ -316,6 +319,7 @@ body {
   display: block;
   text-align: center;
   padding: 20px;
+  word-break: break-all;
 }
 
 .buy-item-list {
